@@ -12,7 +12,9 @@ namespace day6
             coordinates1.move(4, 5, 6);
             coordinates1.printGraph();
             Graph coordinates2 = new Graph(7, 8, 9);
-            coordinates1.move(coordinates2);
+            
+            coordinates1.move(null);
+            
             coordinates1.printGraph();
 
             //programming question 1
